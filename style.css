@@ -91,23 +91,24 @@ nav ul li {
     gap: 10px;
 }
 
-.banner-btn button{
+.banner-btn button {
     background: #e02c6d;
     color: #fff;
     border: none;
     font-size: 16px;
-  }
-.banner-cover{
+}
+
+.banner-cover {
     background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
     width: 100%;
 }
 
 /* sponsor section */
-.sponsor-contant{
+.sponsor-contant {
     margin-top: 130px;
     border-top: 1px solid rgb(189, 186, 186);
-    border-bottom: 1px solid  rgb(189, 186, 186);
+    border-bottom: 1px solid rgb(189, 186, 186);
     padding: 30px;
     column-gap: 50px;
     margin-bottom: 110px;
@@ -121,42 +122,58 @@ nav ul li {
 /* mobile responsive  */
 @media screen and (max-width: 576px) {
 
-    nav{
+    nav {
         flex-direction: column;
         gap: 15px;
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column;
         padding: 10px;
         padding-right: 50px;
         padding-top: 50px;
     }
-    .banner-cover{
+
+    .banner-cover {
         flex-direction: column;
         padding-bottom: 40px;
     }
-    .nav-tittle{
+
+    .nav-tittle {
         font-size: 19px;
     }
-    ul > li{
+
+    ul>li {
         font-size: 13px;
         padding-top: 15px;
     }
 
-    .banner-cover img{
+    .banner-cover img {
         width: 150%;
     }
-    .banner-cover{
+
+    .banner-cover {
         padding-right: 100px;
         background-size: contain;
         gap: 30px;
     }
-    .banner-btn{
+
+    .banner-btn {
         margin-bottom: 80px;
         margin-top: 30px;
     }
 
-    .sponsor-contant{
+    .sponsor-contant {
         flex-direction: column;
+        gap: 25px;
     }
+}
+
+
+
+/* tablet responsive */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .sponsor-contant {
+        flex-direction: column;
+        gap: 25px;}
 }
