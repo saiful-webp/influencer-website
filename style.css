@@ -115,3 +115,48 @@ nav ul li {
     display: flex;
     justify-content: space-evenly;
 }
+
+
+
+/* mobile responsive  */
+@media screen and (max-width: 576px) {
+
+    nav{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .banner-container{
+        flex-direction: column;
+        padding: 10px;
+        padding-right: 50px;
+        padding-top: 50px;
+    }
+    .banner-cover{
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+    .nav-tittle{
+        font-size: 19px;
+    }
+    ul > li{
+        font-size: 13px;
+        padding-top: 15px;
+    }
+
+    .banner-cover img{
+        width: 150%;
+    }
+    .banner-cover{
+        padding-right: 100px;
+        background-size: contain;
+        gap: 30px;
+    }
+    .banner-btn{
+        margin-bottom: 80px;
+        margin-top: 30px;
+    }
+
+    .sponsor-contant{
+        flex-direction: column;
+    }
+}
